@@ -40,15 +40,11 @@ body {
 
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-}
-
 .logo img {
-  height: 80px;                /* ajusta tamaño del logo */
+    margin-bottom: -20px;
+  height: 140px;                /* ajusta tamaño del logo */
   width: auto;
-  display: block;
+  display: flexbox;
 }
 
 /* --- MENÚ DE NAVEGACIÓN --- */
@@ -61,8 +57,8 @@ body {
   display: flex;
   align-items: center;         /* ✅ centra verticalmente logo y menú */
   justify-content: space-between;
-  padding: 10px 60px;
-  height: 100px;  
+  padding: 70px 500px;
+  height: 145px;  
 }
 
 .menu .navbar ul li {
@@ -84,7 +80,8 @@ body {
 
 .header-txt {
   text-align: center;
-  padding: 0 20px;
+  padding: 945 20px;
+  margin-bottom: -70px;
 }
 .header-txt h1 {
   font-family: 'Montserrat', sans-serif; /* ✅ tipografía más moderna y limpia */
@@ -118,12 +115,6 @@ body {
   color: var(--color-fondo);
 }
 
-
-.logo img {
-  height: 190px;
-  width: auto;
-  display: flex;
-}
 
 .menu .navbar ul {
   display: flex;
@@ -480,12 +471,7 @@ body {
     padding: 15px 0;
 }
 
-/* LOGO */
-.logo img {
-    width: 140px;      /* Ajusta si quieres más pequeño */
-    max-width: 100%;
-    height: auto;
-}
+
 
 /* Ocultar checkbox */
 #menu {
